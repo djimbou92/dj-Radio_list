@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Radio List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="radio-container" class="radio-container hidden">
+        <div class="radio-header">
+            <div class="radio-title">📻 Radio List by Djimbou</div>
+            <div class="radio-channel" id="radio-channel">Channel 1</div>
+            <div class="close-btn" onclick="closeRadioList()">×</div>
+        </div>
+        
+        <div class="radio-content">
+            <div class="users-list" id="users-list">
+                <div class="no-users">No users on this channel</div>
+            </div>
+        </div>
+        
+        <div class="radio-footer">
+            <div class="radio-info">Press F9 to toggle</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
