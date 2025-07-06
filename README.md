@@ -1,4 +1,5 @@
 # DJ Radio List
+![Dj-radiolist](https://github.com/user-attachments/assets/304d2cd5-157c-415b-9616-ba88fff52369)
 
 A comprehensive radio list system for QBCore that displays who's on the radio with visual indicators.
 
